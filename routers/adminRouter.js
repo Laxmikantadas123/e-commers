@@ -4,7 +4,7 @@ const auth=require("../middleware/authMiddleware.js")
 const {adminLogin,adminProfile}=require("../controllers/adminController.js")
 const admin=require("../middleware/adminMiddleware.js")
 router.post("/login",adminLogin)
-
+router.post("/",)
 
 
 
